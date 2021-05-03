@@ -1,0 +1,63 @@
+body {
+
+  background-image:url(danilo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 0 100px;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+ 
+  position: fixed;
+  width: 1325px;
+  height:1050px;
+  font-size-adjust: 3px;
+  font-family: sans-serif;
+  color: black;
+  
+
+  
+}
+.all_table{
+	position: absolute;
+	top:5%;
+	left: 20%;
+
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+.head{
+	width: 50%;
+
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color:#ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #000000;
+}
+#head{
+	float: center;
+	color:#ffffff;
+}
+button {
+  background-color: #000000; /* Green */
+  position: absolute;
+  top:1%;
+  left:78%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
